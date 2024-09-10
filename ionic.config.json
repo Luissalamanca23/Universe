@@ -1,0 +1,7 @@
+{
+  "name": "EcoRideApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
