@@ -1,0 +1,39 @@
+/* Homepage.css */
+
+.featured-events {
+    background: var(--ion-color-primary);
+    color: white;
+    padding: 16px;
+  }
+  
+  .featured-events h2 {
+    margin-bottom: 16px;
+  }
+  
+  .quick-access {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 16px;
+  }
+  
+  .gamification {
+    position: fixed;
+    top: 70px;
+    right: 16px;
+    background: white;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .gamification ion-badge {
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  ion-fab-button {
+    margin-bottom: 56px; /* Adjust based on your tab bar height */
+  }
+  
+  /* Add more custom styles as needed */

@@ -2,6 +2,8 @@ import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
+import Login from './components/Login';
+import Inicio from './pages/inicio';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -18,6 +20,12 @@ import '@ionic/react/css/text-alignment.css';
 import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
+
+/* Leaflet styles */
+import 'leaflet/dist/leaflet.css';
+
+/* Swiper styles */
+import 'swiper/css';
 
 /**
  * Ionic Dark Mode
@@ -39,12 +47,19 @@ const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route exact path="/home">
-          <Home />
-        </Route>
+        {/* Ruta de inicio de sesión */}
+        <Route exact path="/login" component={Login} />
+        
+        {/* Ruta de inicio que redirige al inicio de sesión */}
         <Route exact path="/">
-          <Redirect to="/home" />
+          <Redirect to="/login" />
         </Route>
+        
+        {/* Ruta de la página principal después del inicio de sesión */}
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/inicio" component={Inicio} />
+        
+        {/* Puedes agregar más rutas aquí según sea necesario */}
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
