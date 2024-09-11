@@ -121,8 +121,8 @@ const Homepage: React.FC = () => {
 
         {/* Gamification Elements */}
         <IonFab vertical="top" horizontal="end" slot="fixed">
-            <div className="gamification ion-padding">
-            <IonBadge color="secondary">Level 4 Scholar</IonBadge>
+            <div className="gamification ion-padding" style={{ background: 'var(--ion-color-light)' }}>
+            <IonBadge color="secondary">Nivel 4 Erudito</IonBadge>
             <IonProgressBar value={progress / 100}></IonProgressBar>
             </div>
         </IonFab>
