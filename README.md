@@ -81,8 +81,8 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 Para preguntas, comentarios o sugerencias, por favor contáctanos:
 
-- **Luis Salamanca** - Fundador del Proyecto - [contact@luissalamanca.dev](mailto:contact@luissalamanca.dev)
-- **Repositorio de GitHub**: [UniVerse App](https://github.com/yourusername/universe-app)
+- **Luis Salamanca** - Fundador del Proyecto - [contact@luissalamanca.dev](mailto:l.salamanca18@icloud.com)
+- **Repositorio de GitHub**: [UniVerse App](https://github.com/Luissalamanca23/Universe.git)
 
 ¡Mantente conectado y síguenos en las redes sociales para las últimas actualizaciones!
 
